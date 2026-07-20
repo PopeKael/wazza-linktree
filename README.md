@@ -21,3 +21,10 @@ node --check .\visitor-counter.js
 ```
 
 The production deployment target is managed separately from this public source repository.
+
+## Licensing
+
+The source code is available under the [MIT License](LICENSE). Original site
+content and creative assets are available under the [Creative Commons
+Attribution 4.0 International licence](CONTENT-LICENSE.md), subject to the
+third-party material exclusions described there.
