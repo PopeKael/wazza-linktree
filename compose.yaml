@@ -1,0 +1,9 @@
+services:
+  linktree:
+    image: httpd:latest
+    container_name: linktree
+    ports:
+      - "8084:80"
+    volumes:
+      - ./:/usr/local/apache2/htdocs/
+    restart: unless-stopped
